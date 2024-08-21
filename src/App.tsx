@@ -46,7 +46,7 @@ function App() {
   }
 
   function gerarFrase() {
-    let numeroAleatorio = Math.floor(
+    const numeroAleatorio = Math.floor(
       Math.random() * allFrases[categoriaSelecionada].frases.length
     );
     setTextoFrase(
